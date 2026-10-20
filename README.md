@@ -10,7 +10,7 @@ SPIR-V is the default output and needs Bevy's `shader_format_spirv` feature:
 
 ```toml
 [dependencies]
-bevy = { version = "0.19.1", features = ["3d", "shader_format_spirv"] }
+bevy = { version = "0.20.0", features = ["3d", "shader_format_spirv"] }
 bevy_slang = "0.1"
 ```
 

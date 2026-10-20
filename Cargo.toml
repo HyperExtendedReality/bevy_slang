@@ -2,7 +2,7 @@
 name = "bevy_slang"
 version = "0.1.0"
 edition = "2024"
-rust-version = "1.95"
+rust-version = "1.97.1"
 description = "Runtime Slang shader compilation for Bevy"
 license = "MIT OR Apache-2.0"
 homepage = "https://github.com/shader-slang/slang"
@@ -14,7 +14,7 @@ default = []
 spirv_passthrough = ["bevy/spirv_shader_passthrough"]
 
 [dependencies]
-bevy = { version = "0.19.1", default-features = false, features = [
+bevy = { version = "0.20.0", default-features = false, features = [
     "bevy_asset",
     "bevy_shader",
     "shader_format_spirv",
